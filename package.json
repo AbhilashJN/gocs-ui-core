@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/AbhilashJN/gocs-ui-core#readme",
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^16.13.1"
   }
 }
