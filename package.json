@@ -1,0 +1,22 @@
+{
+  "name": "gocs-ui-core",
+  "version": "0.1.0",
+  "description": "Core UI components for gocs UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhilashJN/gocs-ui-core.git"
+  },
+  "author": "AbhilashJN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhilashJN/gocs-ui-core/issues"
+  },
+  "homepage": "https://github.com/AbhilashJN/gocs-ui-core#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
