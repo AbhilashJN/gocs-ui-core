@@ -2,9 +2,11 @@
   "name": "gocs-ui-core",
   "version": "0.1.0",
   "description": "Core UI components for gocs UI",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && NODE_ENV=production babel src --out-dir build --copy-files",
+    "prepare": "NODE_ENV=production babel src --out-dir build --copy-files"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,13 @@
   },
   "homepage": "https://github.com/AbhilashJN/gocs-ui-core#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5"
   }
 }

@@ -1,7 +1,0 @@
-export {default as HeatmapsPage} from './src/components/HeatmapsPage'
-export {default as Home} from './src/components/Home'
-export {default as Loader} from './src/components/Loader'
-export {default as NavBar} from './src/components/NavBar'
-export {default as PlayersList} from './src/components/PlayersList'
-export {default as StatsPage} from './src/components/StatsPage'
-export {default as StatTable} from './src/components/StatTable'
