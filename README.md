@@ -14,8 +14,8 @@ More stats on the way. Feature suggestions are welcome.
 
 ### The components in this library are used in these projects:
 
- - [gocs-ui-web](https://github.com/AbhilashJN/gocs-ui-web):
- A ReactJS UI for the gocs CSGO demo analysis tool web service.
+ - [gocs-grpc-web-client](https://github.com/AbhilashJN/gocs-grpc-web-client):
+ A ReactJS UI for the [gocs grpc service](https://github.com/AbhilashJN/gocs-grpc-server).
   - [gocs-w](https://github.com/AbhilashJN/gocs-w): Cross platform desktop app for CSGO demo analysis.
 
 
