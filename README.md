@@ -8,11 +8,11 @@ Currently supports the following features:
  - Generate heatmap for K/D and bomb plant events for a player
 
 More stats on the way. Feature suggestions are welcome.
+***
 
 <br/>
-<br/>
 
-## The components in this library are used in:
+### The components in this library are used in these projects:
 
  - [gocs-ui-web](https://github.com/AbhilashJN/gocs-ui-web):
  A ReactJS UI for the gocs CSGO demo analysis tool web service.
